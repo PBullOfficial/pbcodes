@@ -1,0 +1,120 @@
+html {
+    width: 100vw;
+}
+
+body {
+    background-image: url('\\images\\output7.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin-left: 0;
+}
+
+.contact-box {
+    border-radius: 5px;
+    width: 15rem;
+    background-color: tan;
+    color: black;
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+#contact-title {
+    padding-left: .5rem;
+    padding-bottom: 0rem;
+}
+
+#contact-body {
+    text-align: right;
+}
+
+#contact-body > ul {
+    list-style-type: none;
+    padding-bottom: .5rem;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(56, 73, 86, 0.8);
+    margin-top: auto;
+    padding: .5rem;
+    backdrop-filter: blur(6px);
+}
+
+nav > a {
+    border-radius: 5px;
+    padding: .5rem;
+    margin-inline: 1rem;
+    background-color: rgb(200, 230, 255);
+}
+
+/* hyperlinks */
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:black;
+}
+
+a:active {
+    color:black;
+}
+
+main {
+    width: 100vw;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    height: 65vw;
+    width: 80vw;
+    background: rgba(56, 73, 86, 0.8);
+    margin-inline: auto;
+    margin-top: 2rem;
+    backdrop-filter: blur(6px);
+}
+
+#main-p1 {
+    border-radius: 5px;
+    height: 15rem;
+    width: 20rem;
+    background: #384956;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+#main-p2 {
+    border-radius: 5px;
+    height: 15rem;
+    width: 20rem;
+    background: #384956;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+#main-p3 {
+    border-radius: 5px;
+    height: 17rem;
+    width: 44rem;
+    background: #384956;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
