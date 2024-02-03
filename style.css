@@ -1,6 +1,4 @@
-html {
-    width: 100vw;
-}
+
 
 body {
     background-image: url('\\images\\output7.png');
@@ -12,7 +10,7 @@ body {
 }
 
 .contact-box {
-    border-radius: 5px;
+    border-radius: 12px;
     width: 15rem;
     background-color: tan;
     color: black;
@@ -49,7 +47,7 @@ nav {
 }
 
 nav > a {
-    border-radius: 5px;
+    border-radius: 12px;
     padding: .5rem;
     margin-inline: 1rem;
     background-color: rgb(200, 230, 255);
@@ -81,10 +79,11 @@ main {
 }
 
 .main-content {
+    border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 5px;
-    height: 65vw;
+    justify-content: center;
+    height: 40vw;
     width: 80vw;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
@@ -92,29 +91,28 @@ main {
     backdrop-filter: blur(6px);
 }
 
+.main-content > div {
+    margin: 1rem;
+    justify-content: center;
+}
+
 #main-p1 {
-    border-radius: 5px;
-    height: 15rem;
-    width: 20rem;
+    border-radius: 12px;
+    height: 20rem;
+    width: 25rem;
     background: #384956;
-    margin-inline: auto;
-    margin-top: 2rem;
 }
 
 #main-p2 {
-    border-radius: 5px;
-    height: 15rem;
-    width: 20rem;
+    border-radius: 12px;
+    height: 20rem;
+    width: 25rem;
     background: #384956;
-    margin-inline: auto;
-    margin-top: 2rem;
 }
 
 #main-p3 {
-    border-radius: 5px;
-    height: 17rem;
+    border-radius: 12px;
+    height: 20rem;
     width: 44rem;
     background: #384956;
-    margin-inline: auto;
-    margin-top: 2rem;
 }
