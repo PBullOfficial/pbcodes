@@ -1,12 +1,10 @@
 
-
 body {
     background-image: url('\\images\\output7.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    margin-left: 0;
 }
 
 .contact-box {
@@ -37,7 +35,6 @@ body {
 }
 
 nav {
-    width: 100vw;
     display: flex;
     justify-content: flex-end;
     background: rgba(56, 73, 86, 0.8);
@@ -74,10 +71,6 @@ a:active {
     color:black;
 }
 
-main {
-    width: 100vw;
-}
-
 .main-content {
     border-radius: 12px;
     display: flex;
@@ -87,7 +80,7 @@ main {
     width: 80vw;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
-    margin-top: 2rem;
+    margin-top: .7rem;
     backdrop-filter: blur(6px);
 }
 
@@ -96,23 +89,16 @@ main {
     justify-content: center;
 }
 
-#main-p1 {
+#main-p1, #main-p2 {
     border-radius: 12px;
-    height: 20rem;
-    width: 25rem;
-    background: #384956;
-}
-
-#main-p2 {
-    border-radius: 12px;
-    height: 20rem;
-    width: 25rem;
+    height: 18vw;
+    width: 25vw;
     background: #384956;
 }
 
 #main-p3 {
     border-radius: 12px;
-    height: 20rem;
-    width: 44rem;
+    height: 18vw;
+    width: 40vw;
     background: #384956;
 }
