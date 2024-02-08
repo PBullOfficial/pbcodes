@@ -76,29 +76,30 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 40vw;
-    width: 80vw;
+    height: 66em;
+    width: 150em;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
-    margin-top: .7rem;
+    margin-top: 1rem;
     backdrop-filter: blur(6px);
+    padding: 1vw;
 }
 
 .main-content > div {
-    margin: 1rem;
+    margin: 1em;
     justify-content: center;
 }
 
 #main-p1, #main-p2 {
     border-radius: 12px;
-    height: 18vw;
-    width: 25vw;
     background: #384956;
+    height: 30em;
+    width: 45em;
 }
 
 #main-p3 {
     border-radius: 12px;
-    height: 18vw;
-    width: 40vw;
     background: #384956;
+    height: 30em;
+    width: 80em;
 }
