@@ -76,13 +76,14 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 66em;
-    width: 150em;
+    height: 80vh;
+    width: 90vw;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
     margin-top: 1rem;
     backdrop-filter: blur(6px);
     padding: 1vw;
+    overflow-y: auto;
 }
 
 .main-content > div {
