@@ -76,7 +76,7 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 80vh;
+    height: 75vh;
     width: 90vw;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
@@ -91,14 +91,14 @@ a:active {
     justify-content: center;
 }
 
-#main-p1, #main-p2 {
+#main-img-p2, #main-img-p4, #main-img-p5 {
     border-radius: 12px;
     background: #384956;
     height: 30em;
     width: 45em;
 }
 
-#main-p3 {
+#main-img-p3, #main-img-p6 {
     border-radius: 12px;
     background: #384956;
     height: 30em;
