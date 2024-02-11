@@ -89,6 +89,81 @@ a:active {
     overflow-y: auto;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 2em;
+}
+
+#intro-text-p1 {
+    border-radius: 12px;
+    background: none;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(200, 230, 255);
+    width: 50%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#intro-img-p1 {
+    border-radius: 12px;
+    background: #384956;
+    width: 50%;
+}
+
+.ai-discord-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+}
+
+#ai-text-p1 {
+    border-radius: 12px;
+    background: none;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(200, 230, 255);
+    width: 50%;
+    align-items: flex-end;
+}
+
+#ai-img-p1 {
+    border-radius: 12px;
+    background: #384956;
+    margin-top: 3em;
+    width: 50%;
+}
+
+.cat-tower-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+}
+
+#cat-text-p1 {
+    border-radius: 12px;
+    background: none;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(200, 230, 255);
+    width: 50%;
+    align-items: flex-end;
+}
+
+#cat-img-p1, #cat-img-p2, #cat-img-p3 {
+    border-radius: 12px;
+    background: #384956;
+    margin-top: 3em;
+    width: 50%;
+}
+
 .main-content > div {
     margin: 1em;
     justify-content: center;
@@ -108,29 +183,3 @@ a:active {
     width: 80em;
 }
 
-.ai-discord-bot {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 2em;
-}
-
-#main-text-p1 {
-    border-radius: 12px;
-    background: none;
-    font-size: 5vh;
-    font-family:'Courier New', Courier, monospace;
-    color:rgb(200, 230, 255);
-    width: 50%;
-}
-
-#main-img-p1 {
-    border-radius: 12px;
-    background: #384956;
-    margin-top: 3em;
-    width: 50%;
-}
-
-.apps {
-    display: flex;
-}
