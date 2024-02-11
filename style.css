@@ -23,6 +23,7 @@ body {
 #contact-title {
     padding-left: .5rem;
     padding-bottom: 0rem;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #contact-body {
@@ -32,6 +33,7 @@ body {
 #contact-body > ul {
     list-style-type: none;
     padding-bottom: .5rem;
+    font-family:'Courier New', Courier, monospace;
 }
 
 nav {
@@ -48,6 +50,7 @@ nav > a {
     padding: .5rem;
     margin-inline: 1rem;
     background-color: rgb(200, 230, 255);
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* hyperlinks */
@@ -103,4 +106,32 @@ a:active {
     background: #384956;
     height: 30em;
     width: 80em;
+}
+
+.ai-discord-bot {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2em;
+}
+
+#main-text-p1 {
+    border-radius: 12px;
+    background: none;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(200, 230, 255);
+    align-items: top;
+    width: 50%;
+}
+
+#main-img-p1 {
+    border-radius: 12px;
+    background: #384956;
+    margin-top: 3em;
+    width: 50%;
+}
+
+.apps {
+    display: flex;
 }
