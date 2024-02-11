@@ -175,6 +175,8 @@ a:active {
     width: 100%;
     gap: 2em;
     align-items: flex-end;
+    margin-top: 17vh;
+    margin-bottom: 17vh
 }
 
 #site-text-p1 {
@@ -185,4 +187,10 @@ a:active {
     color:rgb(200, 230, 255);
     width: 50%;
     align-items: flex-end;
+}
+
+#site-iframe-p1 {
+    width: 50%;
+    height: 30vh;
+    border-radius: 12px;
 }
