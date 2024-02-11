@@ -142,9 +142,9 @@ a:active {
 .cat-tower-value {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     gap: 2em;
+    align-items: flex-end;
 }
 
 #cat-text-p1 {
