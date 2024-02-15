@@ -47,8 +47,8 @@ nav {
 
 nav > a {
     border-radius: 12px;
-    padding: .5rem;
-    margin-inline: 1rem;
+    padding: .5em;
+    margin-inline: 1em;
     background-color: rgb(200, 230, 255);
     font-family:'Courier New', Courier, monospace;
 }
