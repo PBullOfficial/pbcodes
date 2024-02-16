@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    font-size: 25px;
+    font-size: 16px;
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -105,8 +105,8 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 75vh;
-    width: 90vw;
+    height: 78dvh;
+    width: 90dvw;
     background: rgba(56, 73, 86, 0.8);
     margin-inline: auto;
     margin-top: 1rem;
@@ -117,12 +117,13 @@ a:active {
 
 #home {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
-    gap: 2em;
+    gap: 1em;
     align-items: center;
     padding: 2em;
     margin-top: 3em;
+    flex-direction: column;
 }
 
 #intro-text-p1 {
@@ -130,6 +131,7 @@ a:active {
     background: none;
     color:rgb(200, 230, 255);
     width: 50%;
+    text-align: center;
 }
 
 #intro-img-p1 {
@@ -137,7 +139,8 @@ a:active {
     background: #384956;
     aspect-ratio: 296 / 253;
     min-width: 180px;
-    width: 20em;
+    width: 30em;
+    align-self: center;
 }
 
 #bot {
