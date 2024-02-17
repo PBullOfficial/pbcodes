@@ -180,7 +180,7 @@ a:active {
     justify-content: center;
     width: 100%;
     gap: 1em;
-    align-items: baseline;
+    align-items: flex-start;
     margin-top: 20em;
     flex-wrap: wrap;
 }
@@ -191,12 +191,13 @@ a:active {
     border-radius: 12px;
     background: none;
     color:rgb(200, 230, 255);
-    width: 30em;
+    width: 24em;
 }
 
 #cat-img-p1, #cat-img-p2, #cat-img-p3 {
     border-radius: 12px;
     background: #384956;
+    width: 24em;
 }
 
 #cat-img-p1 {
