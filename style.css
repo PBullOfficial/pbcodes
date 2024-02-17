@@ -186,6 +186,8 @@ a:active {
 }
 
 #cat-text-p1 {
+    justify-content: center;
+    align-items: center;
     border-radius: 12px;
     background: none;
     color:rgb(200, 230, 255);
