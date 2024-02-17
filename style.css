@@ -46,6 +46,11 @@ body {
 }
 */
 
+.contact-box {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
 #contact-title {
     text-align: right;
     font-size: 16px;
@@ -59,22 +64,20 @@ body {
 #contact-body > ul {
     list-style-type: none;
     padding-bottom: .5rem;
-
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
     background: rgba(56, 73, 86, 0.8);
-    margin-top: auto;
-    padding: .5rem;
+    padding: .5em;
     backdrop-filter: blur(6px);
 }
 
 nav > a {
     border-radius: 12px;
-    padding: .5em;
-    margin-inline: 1em;
+    padding: .5rem;
+    margin-inline: .5em;
     background-color: rgb(200, 230, 255);
 }
 
@@ -115,17 +118,18 @@ a:active {
     margin-inline: auto;
     margin-top: 1rem;
     backdrop-filter: blur(6px);
-    padding: 1vw;
+    padding: 1rem;
     overflow-y: auto;
 }
 
 #home {
     display: flex;
     justify-content: center;
-    width: 100%;
+    height: 78dvh;
+    width: 90dvw;
     gap: 1em;
     align-items: center;
-    padding: 2em;
+    padding-bottom: auto;
     flex-direction: column;
 }
 
@@ -176,8 +180,8 @@ a:active {
     justify-content: center;
     width: 100%;
     gap: 1em;
-    align-items: center;
-    padding-top: 20em;
+    align-items: baseline;
+    margin-top: 20em;
     flex-wrap: wrap;
 }
 
@@ -185,14 +189,12 @@ a:active {
     border-radius: 12px;
     background: none;
     color:rgb(200, 230, 255);
-    width: 50%;
+    width: 30em;
 }
 
 #cat-img-p1, #cat-img-p2, #cat-img-p3 {
     border-radius: 12px;
     background: #384956;
-    margin-top: 3em;
-    width: 50%;
 }
 
 #cat-img-p1 {
