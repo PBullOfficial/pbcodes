@@ -54,40 +54,45 @@ main {
 */
 
 .contact-box {
-    padding: 1rem 1rem 0rem 0rem;
+    padding: 1dvh 2.5dvw .5dvh 1dvh;
 }
 
 #contact-title {
     text-align: right;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
 }
 
 #contact-body {
     text-align: right;
-    font-size: 14px;
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+    padding-bottom: 0rem;
 }
 
 #contact-body > ul {
     list-style-type: none;
-    padding-bottom: .5rem;
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     background: rgba(56, 73, 86, 0.8);
-    padding: .5rem 0 .5rem 0;
+    padding: .5em 2.5dvw .5em 3em;
     backdrop-filter: blur(6px);
-    width: 100%;
-    gap: .5em;
+    gap: 4dvw;
 }
 
 nav > a {
     display: flex;
     justify-content: flex-start;
     border-radius: 12px;
-    padding: .5em;
+    padding: .15em 1em .15em 1em;
     background-color: rgb(200, 230, 255);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* hyperlinks */
@@ -128,7 +133,6 @@ a:active {
     margin-inline: auto;
     margin-top: 1rem;
     backdrop-filter: blur(6px);
-    padding: auto;
     overflow-y: auto;
 }
 
@@ -290,16 +294,25 @@ a:active {
 
     nav {
         justify-content: center;
+        padding: .5rem;
     }
 
     nav > a {
-        width: 20dvw;
-        font-size: 14px;
+        font-size: 17px;
         justify-content: center;
         font-weight: bold;
-        padding-inline: .1rem;
+        padding-inline: .25rem;
     }
 
+    #contact-body > ul {
+        margin: 0rem;
+    }
+
+    .main-content {
+        margin-top: .5dvh;
+        margin-bottom: .5dvh;
+        height: 85dvh;
+    }
 
 }
 
