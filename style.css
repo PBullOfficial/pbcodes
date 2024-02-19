@@ -1,10 +1,13 @@
 h1 {
-    font-size: 64px;
+    font-size: 3.5em;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: normal;
 }
 
@@ -29,7 +32,19 @@ body {
 }
 
 main {
-    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 59dvh;
+    width: 80%;
+    background: rgba(56, 73, 86, 0.8);
+    margin-inline: auto;
+    margin-top: 1.5dvh;
+    margin-bottom: 1.5dvh;
+    backdrop-filter: blur(6px);
+    overflow-y: auto;
+    padding: 15dvh 5% 10dvh 5%;
+    gap: 15dvh;
 }
 
 /*
@@ -53,8 +68,27 @@ main {
 }
 */
 
+
+#header-flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: .5dvh;
+    margin-left: 2.5%;
+    line-height: 1;
+}
+
 .contact-box {
-    padding: 1dvh 2.5dvw .5dvh 1dvh;
+    margin-top: 1dvh;
+    margin-right: 2.5%;
+    margin-left: auto;
+    line-height: 1;
 }
 
 #contact-title {
@@ -62,6 +96,7 @@ main {
     font-size: 24px;
     font-weight: bold;
     color: yellow;
+    line-height: 1;
 }
 
 #contact-body {
@@ -69,18 +104,24 @@ main {
     font-size: 20px;
     color: yellow;
     font-weight: bold;
-    padding-bottom: 0rem;
+    padding-bottom: 0;
 }
 
 #contact-body > ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: .5dvh;
+    margin-block-end: .5dvh;
+    padding-inline-start: 0;
+    line-height: 1;
 }
 
 nav {
     display: flex;
     justify-content:flex-end;
     background: rgba(56, 73, 86, 0.8);
-    padding: .5em 2.5dvw .5em 3em;
+    padding: .5% 2.5dvw .5% 3em;
     backdrop-filter: blur(6px);
     gap: 4dvw;
 }
@@ -116,96 +157,68 @@ a:active {
     color:black;
 }
 
-#pic {
-    width: 100%;
-    height: 100%;
-}
-
-.main-content {
-    border-radius: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    height: 80dvh;
-    width: 95%;
-    background: rgba(56, 73, 86, 0.8);
-    margin-inline: auto;
-    margin-top: 1rem;
-    backdrop-filter: blur(6px);
-    overflow-y: auto;
-}
+/* #home, #bot, #cat, #site, #socials {
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+} */
 
 #home {
     display: flex;
-    justify-content: center;
-    height: 78dvh;
-    width: 90dvw;
-    gap: 1em;
-    align-items: center;
-    padding-bottom: auto;
     flex-direction: row;
-    overflow: wrap;
-}
-
-#intro-text-p1 {
-    display: flex;
-    border-radius: 12px;
-    background: none;
+    justify-content: space-around;
+    align-items: center;
     color:rgb(200, 230, 255);
-    width: 80dvw;
-    justify-content: center;
-
-}
-
-#intro-text-p1 > h1 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    width: 100%;
+    gap: 5dvw;
 }
 
 #intro-img-p1 {
     border-radius: 12px;
     background: #384956;
     aspect-ratio: 296 / 253;
-    width: 80dvw;
-    max-width: 480px;
-    align-self: center;
+    height: 100%;
+}
+
+#intro-img-container-p1 {
+    min-width: 252px;
+    width: 50%;
+    max-width: 560px;
 }
 
 #bot {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
+    color:rgb(200, 230, 255);
     width: 100%;
-    gap: 2em;
-    align-items: center;
-    /* margin-top: 3em; */
+    gap: 5dvw;
 }
 
 #bot-text-p1 {
-    border-radius: 12px;
-    background: none;
-    color:rgb(200, 230, 255);
+    text-align: right;
 }
 
 #bot-img-p1 {
     border-radius: 12px;
     background: #384956;
-    /* margin-top: 3em; */
     aspect-ratio: 459 / 823;
-    min-width: 180px;
 }
 
-#catTower {
+#bot-img-container-p1 {
+    min-width: 252px;
+    width: 50%;
+    max-width: 300px;
+}
+
+#cat {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color:rgb(200, 230, 255);
     width: 100%;
-    gap: 1em;
-    align-items: flex-start;
-    /* margin-top: 20em; */
-    flex-wrap: wrap;
+    gap: 5dvw;
 }
 
 #cat-text-p1 {
@@ -214,28 +227,32 @@ a:active {
     border-radius: 12px;
     background: none;
     color:rgb(200, 230, 255);
-    width: 24em;
+}
+
+#cat-img-container-p1, #cat-img-container-p2, #cat-img-container-p3 {
+    min-width: 252px;
+    width: 50vw;
+    max-width: 560px;
 }
 
 #cat-img-p1, #cat-img-p2, #cat-img-p3 {
     border-radius: 12px;
     background: #384956;
-    width: 24em;
 }
 
 #cat-img-p1 {
     aspect-ratio: 459 / 191;
-    min-width: 180px;
+    min-width: 252px;
 }
 
 #cat-img-p2 {
     aspect-ratio: 324 / 246;
-    min-width: 180px;
+    min-width: 252px;
 }
 
 #cat-img-p3 {
     aspect-ratio: 247 / 263;
-    min-width: 180px;
+    min-width: 252px;
 }
 
 #site {
@@ -243,6 +260,7 @@ a:active {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     gap: 2em;
     align-items: center;
     /* margin-top: 17vh; */
@@ -258,9 +276,14 @@ a:active {
 }
 
 #site-iframe-p1 {
-    width: 70vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     border-radius: 12px;
+}
+
+#site-img-container-p1 {
+    width: 90%;
+    height: 80dvh;
 }
 
 #socials {
@@ -290,7 +313,30 @@ a:active {
 }
 */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
+    #header-flex-wrapper {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: .8;
+        padding: 1dvh 0% 0dvh 0%;
+    }
+    
+    .contact-box {
+        margin-bottom: .2dvh;
+    }
+
+    #contact-title {
+        font-size: 16px;
+    }
+
+    #contact-body > ul {
+        margin: 0rem;
+        font-size: small;
+    }
 
     nav {
         justify-content: center;
@@ -304,22 +350,43 @@ a:active {
         padding-inline: .25rem;
     }
 
-    #contact-body > ul {
-        margin: 0rem;
+    main {
+        height: 60dvh;
     }
 
-    .main-content {
-        margin-top: .5dvh;
-        margin-bottom: .5dvh;
-        height: 85dvh;
+    #home, #bot, #cat, #site, #socials {
+        flex-direction: column;
     }
 
 }
 
-@media (max-width: 1080px) {
+@media screen and (min-width: 601px) and (max-width: 1080px) {
 
-    #home {
-        flex-direction: column;
+    h1 {
+        font-size: 44px;
     }
 
+    .contact-box {
+        margin-bottom: .2dvh;
+    }
+
+    #contact-title {
+        font-size: 20px;
+    }
+
+    #contact-body > ul {
+        font-size: 16px;
+    }
+
+    main {
+        height: 60dvh;
+    }
+
+    #home, #cat, #site, #socials {
+        flex-direction: row;
+    }
+
+    #bot {
+        flex-direction: row-reverse;
+    }
 }
