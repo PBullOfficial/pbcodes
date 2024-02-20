@@ -9,6 +9,12 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+
 }
 
 img {
@@ -19,7 +25,7 @@ img {
 }
 
 body {
-    background-image: url('\\images\\output7.png');
+    background-image: url('images/output7.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,7 +33,7 @@ body {
     font-size: 16px;
     font-family:'Courier New', Courier, monospace;
     margin: 0;
-    height: 100dvh;
+    height: 96dvh;
     width: 100%;
 }
 
@@ -35,7 +41,7 @@ main {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    height: 50dvh;
+    height: 52dvh;
     width: 80%;
     background: rgba(56, 73, 86, 0.8);
     margin-top: 1.5dvh;
@@ -162,11 +168,6 @@ a:active {
     color:black;
 }
 
-/* #home, #bot, #cat, #site, #socials {
-    margin-top: 5dvh;
-    margin-bottom: 5dvh;
-} */
-
 #home {
     display: flex;
     flex-direction: row;
@@ -268,16 +269,15 @@ a:active {
     height: 100%;
     gap: 2em;
     align-items: center;
-    /* margin-top: 17vh; */
-    /* margin-bottom: 17vh; */
 }
 
 #site-text-p1 {
+    display: flex;
     border-radius: 12px;
     background: none;
     color:rgb(200, 230, 255);
-    width: 50%;
     align-items: flex-end;
+    justify-content: center;
 }
 
 #site-iframe-p1 {
