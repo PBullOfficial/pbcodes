@@ -220,7 +220,7 @@ a:active {
 #cat {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     color:rgb(200, 230, 255);
     width: 100%;
@@ -231,7 +231,6 @@ a:active {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background: none;
     color:rgb(200, 230, 255);
 }
 
