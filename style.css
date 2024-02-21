@@ -2,11 +2,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 4dvh;
+    font-size: max(5dvh, 36px);
     font-weight: normal;
     margin: 0;
     padding: 0;
-    line-height: 4dvh;
+    line-height: .8em;
     text-wrap: nowrap;
 }
 
@@ -56,6 +56,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color:rgb(200, 230, 255);
     margin: 0;
     height: 100dvh;
     width: 100%;
@@ -72,11 +73,12 @@ body {
 
 header {
     padding-inline: 5%;
-    padding-top: 1dvh;
+    padding-top: 2dvh;
+    padding-bottom: 1dvh;
 }
 
 #logo {
-    letter-spacing: .5em;
+    letter-spacing: .3em;
 }
 
 nav {
@@ -105,12 +107,12 @@ main {
     flex-direction: column;
     overflow-y: auto;
     margin-inline: auto;
-    height: 70dvh;
+    height: 68dvh;
     width: 88%;
     max-width: 1400px;
-    margin-top: 2dvh;
-    padding: 10dvh 1% 1dvh 1%;
-    gap: 15dvh;
+    margin-top: 1dvh;
+    padding: 10dvh 1% 0dvh 1%;
+    gap: 12dvh;
     background: rgba(56, 73, 86, 0.8);
     backdrop-filter: blur(6px);
     border-radius: 12px;
@@ -177,13 +179,13 @@ main {
 #home {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color:rgb(200, 230, 255);
     gap: 5dvw;
 }
 
-#intro-text-p1, #bot-text-p1 {
+#intro-text-p1 > p, #bot-text-p1 > p {
     max-inline-size: 36ch;
 }
 
@@ -196,20 +198,25 @@ main {
 #intro-img-container-p1 {
     min-width: 252px;
     width: 50%;
-    max-width: 560px;
+    max-width: 480px;
 }
 
 #bot {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color:rgb(200, 230, 255);
     gap: 5dvw;
 }
 
 #bot-text-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     text-align: right;
+    max-inline-size: 48ch;
 }
 
 #bot-img-p1 {
@@ -239,6 +246,11 @@ main {
     align-items: center;
     border-radius: 12px;
     color:rgb(200, 230, 255);
+    max-inline-size: 48ch;
+}
+
+#cat-text-p1 > p {
+    max-inline-size: 36ch;
 }
 
 #cat-img-container-p1, #cat-img-container-p2, #cat-img-container-p3 {
@@ -310,6 +322,8 @@ main {
     color:rgb(200, 230, 255);
     align-items: center;
     justify-content: center;
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
 }
 
 /* Media Queries */
@@ -349,8 +363,7 @@ main {
     }
 
     main {
-        width: 100%;
-        margin-top: 0;
+        width: 90%;
     }
 
     body {
@@ -375,6 +388,10 @@ main {
         flex-direction: column;
     }
 
+    #intro-text-p1, #intro-text-p1 > h2 {
+        text-align: center;
+    }
+
 }
 
 /* Testing */
@@ -382,5 +399,7 @@ main {
     
     body {
         background-image: url('images/output7.png');
+    /* background: #001E2F;; */
     }
+
 }
