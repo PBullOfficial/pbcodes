@@ -247,11 +247,14 @@ main {
     align-items: center;
     border-radius: 12px;
     color:rgb(200, 230, 255);
-    max-inline-size: 48ch;
+    max-inline-size: 86ch;
+    text-align: center;
 }
 
 #cat-text-p1 > p {
-    max-inline-size: 36ch;
+    margin-inline: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #cat-img-container-p1, #cat-img-container-p2, #cat-img-container-p3 {
