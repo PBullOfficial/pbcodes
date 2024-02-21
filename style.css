@@ -106,7 +106,8 @@ main {
     overflow-y: auto;
     margin-inline: auto;
     height: 70dvh;
-    width: 60%;
+    width: 88%;
+    max-width: 1400px;
     margin-top: 2dvh;
     padding: 10dvh 1% 1dvh 1%;
     gap: 15dvh;
@@ -316,25 +317,17 @@ main {
 
 @media screen and (min-width: 601px) and (max-width: 1080px) {
 
-    h1 {
-        width: 10ch;
-    }
-
-    main {
-        width: 80%;
-    }
-
     body {
-        font-size: 14px;
+        font-size: 20px;
     }
 
-    #contact-title {
+    /* #contact-title {
         font-size: 1.5rem;
     }
 
     #contact-body > ul {
         font-size: 1rem;
-    }
+    } */
 
     #home, #socials {
         flex-direction: row;
@@ -351,26 +344,31 @@ main {
 
 @media screen and (max-width: 600px) {
 
+    header {
+        /* padding-left: 0; */
+    }
+
     h1 {
         width: 30%;
     }
 
     main {
-        width: 95%;
+        width: 100%;
+        margin-top: 0;
     }
 
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    #contact-title {
+    /* #contact-title {
         font-size: 16px;
     }
 
     #contact-body > ul {
         margin: 0em;
         font-size: 12px;
-    }
+    } */
 
     nav > a {
         justify-content: center;
