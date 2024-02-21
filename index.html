@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <title>PB</title>
         <meta charset="utf-8">
-        <title>Personal Website of PB</title>
         <meta name="viewport" content="width=device-width, initial_scale=1.0">
         <meta name="keywords" content="Software, Web, Development, Coding, Apps, HTML, CSS, JS, JavaScript, Python, AI, ML, Cat, Tower, Cats, cattower, Value, Discord, Bot, C++">
         <meta name="description" content="Hosting spot for digital designs and machines by Peter Bulloch.">
         <meta name="author" content="PB">
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     </head>
 <body>
     <header>
-        <section id="header-flex-wrapper">
-            <div id="logo"><h1>P&#x1F5B1;B Coding</h1></div>
-            <div class="contact-box">
+<!--         <section id="header-flex-wrapper"> -->
+            <div id="logo">
+                <h1><span>P&#128433;B</span> 
+                    <span>Coding</h1></span></div>
+            <!-- <div class="contact-box">
                 <div id="contact-title">Contact</div>
                 <div id="contact-body">
                     <ul>
@@ -22,8 +27,8 @@
                         <li>linkedin.com/xxxxxx</li>
                     </ul>
                 </div>
-            </div>
-        </section>
+            </div> -->
+        <!-- </section> -->
     </header>
 
     <nav>
@@ -36,10 +41,10 @@
     <main>
         <section id="home">
             <div id="intro-text-p1">
-                <h2>Hey all,</h2>
-                <p>I'm PB, a software developer. My interests include software and business development, as well as artificial intelligence. 
-                    An unconventional path gave me two bachelor's degrees, one in computer science and the other in international business. 
-                    I have two cats (relevant later) who are most likely meowing now. Thanks for checking out my code.</p>
+                <h2>Hey peeps,</h2>
+                <p>I'm Peter Bulloch, a web developer from CO, USA. I like creating apps and sharing them. Coding can be fun!
+                    So, thank you for the visit, and, enjoy.
+                </p>
             </div>
             <div id="intro-img-container-p1">
                 <img id="intro-img-p1" src="images/pb.png" alt="Website author, PB, profile picture." title="PB">
@@ -49,10 +54,10 @@
         <section id="bot">
             <div id="bot-text-p1">
                 <h2>AI-Chatbot for Discord</h2>
-                <p>It has a button! This bot listens and responds to text and images. It can !ask, !draw, !edit, or 
-                    include "prompt" in an !ask command for an image prompt. The Draw button Discord UI element does away with prompt 
-                    engineering. The bot operates in Python via the discord.py library. It accesses the OpenAI API to process text, while drawing 
-                    also can be done via the same API, or choose the local branch on GitHub.</p>
+                <p>The bot listens and responds. It can !ask, !draw, !edit, or 
+                    type "prompt" after !ask for an image prompt. It has a Draw button! The bot operates in Python via the discord.py library. 
+                    It accesses the OpenAI API to process text, while drawing also can be done via the same API, or 
+                    choose the local branch on GitHub.</p>
             </div>
             <div id="bot-img-container-p1">
                 <img id="bot-img-p1" src="images/ai_bot_discord_example.png" alt="A bot command with the word 'prompt' in it causes the AI to 
@@ -62,23 +67,25 @@
 
         <section id="cat">
             <div id="cat-text-p1"><h2>Cat Tower Value</h2></div>
-            <p>Cat real estate prices are through the roof. Cat towers are complex and expensive, but this calculator shows there is some sanity 
-                left in this world. It takes all the cat tower's shapes and uses the price to give the actual dollar per square inch. 
-                It works for humans. Let your cat give it a whirl.</p>
+            <p>Cat real estate prices are through the roof. Cat towers are complex and expensive, but this cat-ulator can handle it. It takes all the cat tower's shapes and uses the price to give the actual dollar per square inch. 
+                It works for humans. Let your feline give it a whirl.</p>
             <div id="cat-img-container-p1"><img id="cat-img-p1" src="images/cattowervalue1.png" alt="Cat Tower Value main menu." title="1 of 3"></div>
             <div id="cat-img-container-p2"><img id="cat-img-p2" src="images/cattowervalue2.png" alt="Cat Tower Value shape selection menu." title="2 of 3"></div>
             <div id="cat-img-container-p3"><img id="cat-img-p3" src="images/cattowervalue3.png" alt="Cat Tower Value results page." title="3 of 3"></div>
         </section>
 
         <section id="site">
-            <div id="site-text-p1"><h2>Website</h2></div>
+            <div id="site-text-p1">
+                <h2>Website</h2>
+            </div>
             <div id="site-img-container-p1"><iframe id="site-iframe-p1" src="index.html" title="pbcodes"></iframe></div>
+            <div id="iframe-text-p1" style="display: block"><span>...and more! (Did you find all the &#x1F5B1;?)</span></div>
+            <div id="iframe-text-p2" style="display: none;">&#x1F5B1; Good find! You found
+            &#x1F5B1; #1<span id="level"></span>. Dive for more, or keep scrolling for socials!</div>
         </section>
 
         <section id="socials">
-            <div id="socials-text-p1" style="display: block"><h3>...and more! (Did you find all the &#x1F5B1;?)</h3></div>
-            <div id="iframe-text-p1" style="display: none;">&#x1F5B1; GOOD FIND! THIS IS #<span id="level">
-            </span> &#x1F5B1;. DIVE FOR MORE, OR KEEP SCROLLING FOR SOCIALS.</div>
+
         </section>
     </main>
 </body>

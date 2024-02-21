@@ -1,8 +1,8 @@
 
 window.onload = function() {
     if(window !== window.top) {
-        document.getElementById('iframe-text-p1').style.display = 'block';
-        document.getElementById('socials-text-p1').style.display = 'none';
+        document.getElementById('iframe-text-p2').style.display = 'block';
+        document.getElementById('iframe-text-p1').style.display = 'none';
     }
 
     let level = getIframeLevel();
