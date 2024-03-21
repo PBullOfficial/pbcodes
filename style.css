@@ -209,12 +209,13 @@ main {
     border-radius: 12px;
     background: #384956;
     aspect-ratio: 459 / 823;
+    min-width: 120px;
 }
 
 #bot-img-container-p1 {
     min-width: 252px;
     width: 50%;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 #cat {
@@ -336,13 +337,15 @@ main {
         flex-direction: row;
     }
 
-    #bot {
-        flex-direction: row-reverse;
-    }
-
-    #site, #cat {
+    #site, #cat, #bot {
         flex-direction: column;
     }
+
+    #bot-text-p1 {
+        text-align: center;
+        align-items: center;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -379,6 +382,11 @@ main {
 
     #intro-text-p1, #intro-text-p1 > h2 {
         text-align: center;
+    }
+
+    #bot-text-p1 {
+        text-align: center;
+        align-items: center;
     }
 
 }
