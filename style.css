@@ -6,7 +6,7 @@ h1 {
     font-weight: normal;
     margin: 0;
     padding: 0;
-    line-height: .8em;
+    line-height: .9em;
     text-wrap: nowrap;
 }
 
@@ -46,7 +46,7 @@ body {
     height: 100dvh;
     width: 100%;
     /* background-image: url('images/ai_bot_discord_example.png'); */
-    background-image: url('images/output7.png');
+    background-image: url('assets/images/output7.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -65,6 +65,29 @@ header {
 
 #logo {
     letter-spacing: .3em;
+}
+
+#pb-logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+#p-logo, #b-logo {
+    font-size: max(5dvh, 70px);
+}
+
+#mouse-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    min-width: 50px;
+    padding-bottom: auto;
+}
+
+#mouse-logo {
+    width: 22%;
+    min-width: 36px;
 }
 
 nav {

@@ -1,0 +1,19 @@
+<svg width="59" height="100" viewBox="0 0 59 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mouse" clip-path="url(#clip0_115_2)">
+<g id="Mouse Buttons">
+<rect id="Side Button Bottom" y="57" width="6" height="14" rx="3" fill="white"/>
+<rect id="Side Button Top" y="41" width="6" height="14" rx="3" fill="rgb(200, 230, 255)"/>
+<path id="Left Mouse Click" d="M3 29C3 22.3726 8.37258 17 15 17H29V56H3V29Z" stroke="rgb(200, 230, 255)" stroke-width="4"/>
+<path id="Right Mouse Click" d="M29 17H43C49.6274 17 55 22.3726 55 29V56H29V17Z" stroke="rgb(200, 230, 255)" stroke-width="4"/>
+<rect id="Scroll Wheel" x="24" y="26.9683" width="10" height="20" rx="4" fill="rgb(200, 230, 255)"/>
+<path id="Wheel" d="M26 32C26 30.3431 27.3431 29 29 29C30.6569 29 32 30.3431 32 32V42C32 43.6569 30.6569 45 29 45C27.3431 45 26 43.6569 26 42V32Z" fill="#848484"/>
+<path id="Wire" d="M28.8071 16.1594C28.8071 6.46827 25 1.96827 16.5 5.96829C10.7063 8.69476 2 10 2 0" stroke="#848484" stroke-width="4"/>
+<path id="Body" d="M4 29C4 22.3726 9.37258 17 16 17H44C50.6274 17 56 22.3726 56 29V77C56 88.0457 47.0457 97 36 97H24C12.9543 97 4 88.0457 4 77V29Z" stroke="rgb(200, 230, 255)" stroke-width="6"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_115_2">
+<rect width="59" height="100" fill="rgb(200, 230, 255)"/>
+</clipPath>
+</defs>
+</svg>
