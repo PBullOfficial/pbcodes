@@ -59,8 +59,8 @@ body {
 
 header {
     padding-inline: 5%;
-    padding-top: 2dvh;
-    padding-bottom: 1dvh;
+    padding-top: 1dvh;
+    padding-bottom: auto;
 }
 
 #logo {
@@ -70,6 +70,7 @@ header {
 #pb-logo {
     display: flex;
     align-items: flex-end;
+    padding-bottom: 1.5dvh;
 }
 
 #p-logo, #b-logo {
@@ -95,7 +96,7 @@ nav {
     justify-content:space-around;
     align-items: center;
     /* background: rgba(56, 73, 86, 0.8); */
-    padding: 1dvh 5% 1dvh 5%;
+    padding: 1dvh 5% 0dvh 5%;
     /* backdrop-filter: blur(6px); */
     gap: 4%;
 }
