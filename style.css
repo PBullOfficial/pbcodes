@@ -60,7 +60,7 @@ body {
 header {
     padding-inline: 5%;
     padding-top: 1dvh;
-    padding-bottom: auto;
+    padding-bottom: 1dvh;
 }
 
 #logo {
@@ -69,27 +69,15 @@ header {
 
 #pb-logo {
     display: flex;
-    align-items: flex-end;
-    padding-bottom: 1.5dvh;
-}
-
-#p-logo, #b-logo {
-    font-size: max(5dvh, 70px);
-}
-
-#mouse-logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 22%;
-    min-width: 50px;
-    padding-bottom: auto;
+    justify-content: flex-start;
 }
 
 #mouse-logo {
-    width: 22%;
-    min-width: 36px;
+    width: 1.3dvw;
+    min-width: 34px;
+    margin-right: .2em;
 }
+
 
 nav {
     display: flex;
@@ -373,10 +361,6 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-
-    h1 {
-        width: 30%;
-    }
 
     main {
         width: 90%;
