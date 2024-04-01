@@ -328,6 +328,16 @@ main {
     padding-bottom: 5dvh;
 }
 
+#socials {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo {
+    max-width: 26px;
+    max-height: 26px;
+}
+
 /* Media Queries */
 /* max-width for desktop-first */
 
